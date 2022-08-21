@@ -1,5 +1,7 @@
+
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
+#include <math.h>
 #include <conio.h>
 
 int main()
@@ -61,4 +63,7 @@ int main()
       }while (op !='0');
 
     return 0;
+
 }
+
+
