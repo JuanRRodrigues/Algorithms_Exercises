@@ -4,3 +4,6 @@
 * Professor: Jose Oscar Machado Alexandre 
 * (2022 / 1 Semestre)  
 -----------------------------------------------------------------------------------------
+* Livro : Algoritmos: Lógica para desenvolvimento de programação de computadores
+* Capítulos feitos: 3
+----------------------------------------------------------------------------------------
