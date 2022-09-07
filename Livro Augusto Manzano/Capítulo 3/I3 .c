@@ -22,9 +22,28 @@ int main()
     printf("O resultado é:%i", R);
     
     return 0;
-    
-    
-    
-    
-    
+
+
+
+ 
+       
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
