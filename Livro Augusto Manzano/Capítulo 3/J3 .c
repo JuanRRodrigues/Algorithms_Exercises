@@ -1,9 +1,8 @@
 /********************************************************************************
-*   File:    I3.c                                                                *
+*   File:    J3.c                                                                *
 *   Author:  Juan R. Rodrigues                                                   *                                     
 *   Book: Algoritmos: Lógica para desenvolvimento de programação de computadores *
 *********************************************************************************/
-
 #include <stdio.h>
 #include <math.h>
 
@@ -26,6 +25,5 @@ int main()
   printf("%i", R);
     
   return 0;
-    
     
 }
