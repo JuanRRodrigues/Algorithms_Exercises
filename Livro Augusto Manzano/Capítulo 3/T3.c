@@ -10,7 +10,7 @@
 um projétil que percorre uma distância em quilômetros a um espaço de tempo em minutos. Utilize
 a fórmula VELOCIDADE+- (DISTÂNCIA* 1000) /(TEMPO* 60). */
 
-int main20()
+int main()
 {
     
     float D,T,V;
