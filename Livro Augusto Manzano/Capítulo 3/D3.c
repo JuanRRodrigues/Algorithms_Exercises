@@ -17,7 +17,7 @@ utilizada na viagem com a fórmula LITROS_USADOS +-- DISTÂNCIA/ 12. O programa 
 apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a
 quantidade de litros utilizada na viagem. */
 
-int main4()
+int main()
  {
      int T, V, L, D;      // T = Tempo, V = Velocidade Média, D = Distância, L = Litros Gastos 
      
