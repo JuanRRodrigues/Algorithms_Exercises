@@ -18,7 +18,8 @@ para delta.  */
 
  int main()
  {
-    
+    int A, B, C;
+    X = 
      
      
      return 0;
