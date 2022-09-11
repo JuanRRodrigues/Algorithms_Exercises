@@ -11,10 +11,23 @@ apresentar o resultado da diferença do maior valor pelo menor valor. */
 #include <locale.h>
 int main() 
 {
-  
-      
+// Ler Valores
+  int A, B, R;
+  printf("Digite o primeiro numero: ");
+   scanf("%d", &A);
+  printf("Digite o segundo numero: ");
+   scanf("%d", &B);
+
+// Decisão
+  if (A > B){
+    R=A-B;
+
+  }else{
+    R=B-A;
+  }
+// Escrever Resultado
+      printf("O resultado eh: %i", R);
        
 
     return 0;
 }
-
