@@ -18,9 +18,36 @@ caso contrário, apresentar a mensagem "Reprovado". Informar também, após a ap
 mensagens, o valor da média obtida pelo aluno.  */
 
 int main()
- {
-   
-     
-     
+{
+    //Variáveis
+    float N1, N2, N3, N4, NE, MD, MD2;
+    printf("Digite as notas:\n ");
+     printf("Nota 1: ");
+      scanf("%f", &N1);
+     printf(" Nota 2: ");
+      scanf("%f", &N2);
+     printf(" Nota 3: ");
+      scanf("%f", &N3);
+     printf(" Nota 4: ");
+      scanf("%f", &N4);
+    //Atribuição
+     MD = (N1+N2+N3+N4)/4;
+
+    // Decisão
+     if (MD >= 7){
+        printf("Nota Final: %0.1f = Aprovado", MD); // Escrever Resultado
+     }else{
+        printf("Nota Atual: %0.1f = Aluno em Exame\n", MD); // Escrever Resultado
+        printf("Nota do exame: ");
+         scanf("%f", &NE);
+         MD2 = (MD+NE)/2;
+         if(MD2 >= 5){
+            printf("Nota Final: %0.1f = Aprovado", MD2); // Escrever Resultado
+         }else{
+            printf("Nota Final: %0.1f = Reprovado", MD2); // Escrever Resultado
+         }
+        
+     }
+    
      return 0;
  }
