@@ -14,10 +14,30 @@ nos exercícios "g" (propriedade distributiva) e "f' (troca de valores) do capí
 
  int main()
  {
- 
+    int A, B, C, F;
+    printf("Digite o Número\n");
+    scanf("%d", &A);
+    scanf("%d", &B);
+    scanf("%d", &C);  
+    
+    if (A > B){
+        F = B;
+        B = A;
+        A = F;
+    }
+    if (B > C){
+        F = C;
+        C = B;
+        B = F;
+    }
+    if (A > B){
+        F = B;
+        B = A;
+        A = F; 
+    }
+        printf("%d, %d, %d", A, B, C);
         
     
 
-  
      return 0;
  }
