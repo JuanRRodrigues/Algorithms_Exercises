@@ -18,9 +18,34 @@ para delta.  */
 
  int main()
  {
-    int A, B, C;
-    X = 
-     
-     
+    int A, B, C, D;
+    float X1, X2;
+    printf("Digite o numero:\n");
+    printf("Valor A: ");
+    scanf("%d", &A);
+    printf("Valor B: ");
+    scanf("%d", &B);
+    printf("Valor C: ");
+    scanf("%d", &C);
+
+    D=((B*B)-(4*(A*C)));
+    printf("Delta: %i", D);
+
+    D = sqrt(D);
+    printf("\nRaiz: %i", D);
+    if(D > 0){
+     X1 = (-B + D)/(2*A);
+     X2 = (-B - D)/(2*A);
+     printf("\nS = {%f,%f} ", X1, X2);
+    }else{
+        if(D = 0){
+            X1 = (-B + D)/(2*A);
+            printf("S = {%f,%f} ", X1, X1);
+        }else{
+            printf("Não há solução");
+        }
+    }
+
+  
      return 0;
  }
