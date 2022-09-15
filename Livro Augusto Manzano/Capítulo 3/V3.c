@@ -1,5 +1,5 @@
 /********************************************************************************
-*   File:    U3.c                                                                *
+*   File:    V3.c                                                                *
 *   Author:  Juan R. Rodrigues                                                   *                                     
 *   Book: Algoritmos: Lógica para desenvolvimento de programação de computadores *
 *********************************************************************************/
