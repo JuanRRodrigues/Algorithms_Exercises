@@ -17,9 +17,10 @@ apresentar o nome informado. O programa deve, após a entrada do sexo, verificar
 se o sexo fornecido é realmente válido, ou seja, se é igual a "M" ou a "F". Não sendo essa
 condição verdadeira, o programa deve apresentar a mensagem "Sexo informado inválido".  
 */
-char nome;
+//char nome;
  int main()
  {
+ 	 char nome[100];
      char sexo;
      
      printf("Digite um Nome: ");
@@ -30,11 +31,11 @@ char nome;
 
 
      if (strcmp("M", &sexo) == 0){
-          printf(" llmo. Sr. %s  ", &nome );
+          printf("| Nome: %s |  | sexo: Masculino |  ", &nome );
          
      }else{
          if (strcmp("F", &sexo) == 0){
-             printf(" llma. Sra. %s  ", &nome );
+             printf("| SRA. %s |  | sexo: %s |  ", &nome, &sexo );
          }else{
              printf("Sexo Invalido");
          }
