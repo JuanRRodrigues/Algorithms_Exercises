@@ -14,6 +14,16 @@ ou ímpar. .
 
  int main()
  {
- 
+     int  A;
+     
+     printf("Digite um Numero inteiro: ");
+     scanf("%i", &A);
+     A = A%2;
+
+     if(A == 0){
+        printf("O numero é par");
+     }else{
+        printf("O numero é impar");
+     }
      return 0;
  }
