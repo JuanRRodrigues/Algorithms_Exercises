@@ -1,30 +1,29 @@
-/********************************************************************************
-*   File:    B4.c                                                                *
+=begin
+**********************************************************************************
+*   File:    B5.rb                                                               *
 *   Author:  Juan R. Rodrigues                                                   *                                     
-*   Book: Algoritmos: Logica para desenvolvimento de programacao de computadores *
-*********************************************************************************/
+*   Book: Algoritmos: Lógica para desenvolvimento de programação de computadores *
+**********************************************************************************
 
-#include <stdio.h>
-#include <locale.h>
+Elaborar um programa que mostre os resultados da tabuada de um número qualquer, a qual
+deve ser apresentada de acordo com sua forma tradicional.
+ 
 
-/* b) Efetuar a leitura de um valor numerico inteiro positivo ou negativo representado pela variavel N e
-apresentar o valor lido como sendo positivo. Dica: se o valor lido for menor que zero, ele deve ser
-multiplicado por -1. 
- */
+=end
+puts "Tabuada Tradicional de Multiplicação"
+puts "Informe um numero inteiro"
+numero = gets.to_i
 
-int main()  
-{
-  // Ler
-  int N;
-  printf("digite um numero positivo ou negativo: ");
-  scanf("%i", &N);
+sleep 1
 
-  // Decisão
-  if(N < 0){
-    N = N*(-1);
-  }
-  // Escrever
-  printf("o Valor digitado eh: %i", N);
+produto = 0
+contador = 0
 
-    return 0;
-}
+loop do 
+   contador += 1
+   produto = (contador * numero)
+   puts "#{contador}x#{numero}=#{produto}"
+if contador == 10
+      break
+    end 
+end  
