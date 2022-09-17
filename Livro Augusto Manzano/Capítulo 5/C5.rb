@@ -1,40 +1,29 @@
-/********************************************************************************
-*   File:    C4.c                                                                *
+=begin
+**********************************************************************************
+*   File:    C5.rb                                                               *
 *   Author:  Juan R. Rodrigues                                                   *                                     
-*   Book: Algoritmos: Lógica para desenvolvimento de programacao de computadores *
-*********************************************************************************/
+*   Book: Algoritmos: Lógica para desenvolvimento de programação de computadores *
+**********************************************************************************
+Construir um programa que apresente a soma dos cem primeiros números naturais
+(1+2+3+ ... +98+99+100).
+ 
+=end
 
-#include <stdio.h>
-#include <math.h>
-#include <locale.h>
+puts "Soma dos cem primeros numeros naturais"
 
-/* c) Realizar a leitura dos valores de quatro notas escolares bimestrais de um aluno representadas
-pelas variaveis N1, N2, N3 e N4. Calcular a media aritmetica (variavel MD) desse aluno
-e apresentar a mensagem "Aprovado" se a media obtida for maior ou igual a 5; caso contrário,
-apresentar a mensagem "Reprovado". Informar tambem, apos a apresentação das mensagens, o
-valor da media obtida pelo aluno . */
+contador = 1
+N = 1
+resposta = 1
+while contador <= 100
+   contador += 1
+   resposta = (contador + (N + resposta - 1))
+   
+   
+   if (contador == 100)
+      puts resposta
+  else
+       
+   end
+end
 
-int main()
-{
-    float N1, N2, N3, N4, MD;
-    printf("Digite as notas:\n ");
-     printf("Nota 1: ");
-      scanf("%f", &N1);
-     printf(" Nota 2: ");
-      scanf("%f", &N2);
-     printf(" Nota 3: ");
-      scanf("%f", &N3);
-     printf(" Nota 4: ");
-      scanf("%f", &N4);
-    
-     MD = (N1+N2+N3+N4)/4;
 
-     if (MD >= 5){
-        printf("Nota Final: %0.1f = Aprovado", MD);
-     }else{
-        printf("Nota Final: %0.1f = Reprovado", MD);
-     }
-    
-    
-    return 0;
-}
