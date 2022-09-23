@@ -12,3 +12,23 @@ técnica de laço, em que o valor da base deve ser multiplicado o número de vez
 no expoente. 
 =end
 
+
+puts "Resultados das potências de uma base qualquer"
+
+puts "Digite a Base"
+Base = gets.chomp.to_i
+puts "Digite o Expoente"
+Expoente = gets.chomp.to_i
+
+count = 0
+resultado = 0
+while count <= Expoente
+    resultado = (Base*resultado)
+
+    if resultado == 0
+        resultado += 1
+    end
+  puts "O numero #{Base} elevado a #{Expoente} é: #{resultado}"
+   count += 1
+
+end
