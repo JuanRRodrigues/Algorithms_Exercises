@@ -12,3 +12,14 @@ laço, perguntando se o valor numérico do contador é ímpar (se o resto do nú
  
 =end
 
+puts "valores números ímpares sitados na faixa 0 a 20"
+
+count = 0
+
+while count < 19
+    count += 1
+    resto = count%2
+    if resto != 0
+        puts count
+    end
+end
