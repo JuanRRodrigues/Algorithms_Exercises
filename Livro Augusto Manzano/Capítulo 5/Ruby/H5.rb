@@ -16,19 +16,19 @@ no expoente.
 puts "Resultados das potências de uma base qualquer"
 
 puts "Digite a Base"
-Base = gets.chomp.to_i
+base = gets.chomp.to_i
 puts "Digite o Expoente"
-Expoente = gets.chomp.to_i
+expoente = gets.chomp.to_i
 
 count = 0
 resultado = 0
-while count <= Expoente
-    resultado = (Base*resultado)
+while count <= expoente
+    resultado = (base*resultado)
 
     if resultado == 0
         resultado += 1
     end
-  puts "O numero #{Base} elevado a #{Expoente} é: #{resultado}"
+  puts "O numero #{base} elevado a #{expoente} é: #{resultado}"
    count += 1
 
 end
