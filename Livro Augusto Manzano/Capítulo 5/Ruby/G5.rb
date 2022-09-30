@@ -15,15 +15,15 @@ no capítulo 3; resolva o problema com a técnica de laço
 puts "Resultados das potências de base 3, elevado de 0 até o valor 15"
 
 count = 0
-Numero = 3
+numero = 3
 resultado = 0
 while count < 16
-    resultado = (Numero*resultado)
+    resultado = (numero*resultado)
 
     if resultado == 0
         resultado += 1
     end
-  puts "O numero #{Numero} elevado a #{count} é: #{resultado}"
+  puts "O numero #{numero} elevado a #{count} é: #{resultado}"
    count += 1
 
 end
