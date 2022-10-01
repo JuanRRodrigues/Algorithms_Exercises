@@ -11,3 +11,15 @@ cem graus Celsius. O programa deve apresentar os valores das duas temperaturas.
 
 puts "Conversao de graus celsius e farenhait"
 
+
+celsius = 0
+
+while celsius < 100
+    celsius += 10
+    farenhait = (9*celsius+160)/5;
+
+puts "Farenhait: #{farenhait} = Celsius: #{celsius} "
+
+
+end
+
