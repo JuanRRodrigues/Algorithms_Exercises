@@ -11,7 +11,6 @@ anterior sucessivamente até o infinito, se a sequência não for interrompida. 
 exercício as variáveis ATUAL, ANTERIOR e PRÓXIMO
 =end
 
-puts "Sequencai"
 
 count = 0
 atual = 1
