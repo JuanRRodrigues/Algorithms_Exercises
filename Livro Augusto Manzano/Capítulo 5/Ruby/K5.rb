@@ -15,5 +15,16 @@ quarto quadro (este exercício foi baseado numa situação exposta no capítulo 
 
 =end
 
-I=0
+count=0                           
+g = 1
+ga = 1
+gt = 0
+while count <= 63
 
+    ga = g+gt
+    gt = ga
+    g = g*2
+    count += 1
+puts "Graos: #{gt}"
+
+end
