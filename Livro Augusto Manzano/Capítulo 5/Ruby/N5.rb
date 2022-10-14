@@ -10,5 +10,15 @@ usuário estiver fornecendo valores positivos. Ou seja, o programa deve parar qu
 fornecer um valor negativo (menor que zero).
 =end
 
+n = 0
+total = 0
+while n >= 0
+    n = gets.chomp.to_i
+    if n >= 0
+      total += n  
+    end
+    
+end
+puts total
 
 
